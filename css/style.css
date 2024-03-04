@@ -1,0 +1,50 @@
+.hstyle {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+}
+.hstyle > button {
+  height: 30px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+.wrap {
+    display: flex;
+    align-items: center;
+}
+.wrap > hr {
+    flex: auto;
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+.wrap > span {
+    padding: 0 10px;
+}
+
+.bsty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+.bsty > div {
+    width: 500px;
+    text-align: center;
+}
+.bsty > div > img {
+  width: 200px;
+}
+.sty {
+    height: 40px;
+    width: 300px;
+    margin: 5px;
+}
+html, body {
+    height: 100%;
+}
+

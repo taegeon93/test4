@@ -1,0 +1,109 @@
+.hstyle {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+  }
+  .hstyle > button {
+    height: 30px;
+    margin-top: 25px;
+    
+  }
+  form{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    padding-top: 10%;
+  }
+  .login-form{
+    padding:  3%;
+    
+    
+  }
+  div {
+    
+  }
+  div1{
+    padding: 10%
+   
+  }
+  label {
+    display: flex;
+    padding-bottom: 5%;
+    align-items: center; 
+    justify-content: center;
+  }
+  fieldset {
+    box-sizing: border-box;
+    width: 460px;
+    margin: 0 auto;
+}
+.btn-area{
+  background-color: blue;
+  width: 300px;
+}
+.btn-area2{
+  background-color: green;
+  width: 300px;
+}
+.btn-area3{
+  background-color: yellow;
+  width: 300px;
+}
+  
+/*#contents { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  width: 100%;
+}
+
+#contents hr { 
+width: 50%; 
+margin-top: 2%; }
+
+
+
+.input-area{
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+justify-content: center;
+height: 100%;
+}
+#login-form > input::placeholder{
+color: #D2D2D2;
+}
+/* html, body { height: 100%; }
+#root { height: 100%; }
+#error-page {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width:100%;
+}
+.center { 
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+justify-content: center;
+height: 100%;
+}
+
+.center hr { width: 50%; margin-top: 2%; }
+
+.textarea-letters { width: 45%; height: 45%; overflow-y: scroll; }
+.textarea-letters:focus { outline-color: steelblue; }
+
+.w-85 { width: 85px; }
+.m-1 { margin: 1px; }
+
+.btn-s1 { padding: 10px; background-color: hotpink;}
+
+.f-bold { font-weight: bold;}
+.f-orange { color: orange; } */

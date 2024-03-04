@@ -1,0 +1,71 @@
+.hstyle {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+  }
+  
+.hstyle > button {
+    height: 30px;
+    margin-top: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.login-area {
+    padding: 3%;
+    border: 2px solid gainsboro;
+    border-radius: 2%;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-area > p {
+    font-size: large;
+    font-weight: bold;
+    color:dimgrey;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    width: 520px;
+}
+
+.input-area > input {
+    height: 40px;
+}
+
+.btn-area {
+    width: 520px;
+}
+
+.btn-area > button {
+    width: 100%;
+    height: 40px;
+
+}
+
+#lgn-btn {
+    background-color: #3563E9;
+    color: aliceblue;
+    border: #3563E9;
+    border-radius: 5px;
+}
+
+#join-btn {
+    background-color: aliceblue;
+    color: gray;
+    border: aliceblue;
+    border-radius: 5px;
+}

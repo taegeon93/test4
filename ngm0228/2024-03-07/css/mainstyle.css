@@ -1,7 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 main {
-  margin-top: 8%;
+  margin-top: 10%;
 }
+.backimg {
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/test1.jpg");
+}
+.area {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 30px;
+}
+form {
+  margin: 50px;
+  margin-top: 9%;
+}
+/* -- 상단 검색창 -- */
+.searchgroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.searchgroup div {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  box-shadow: 1px 1px 1px 1px rgb(235, 235, 235);
+  width: 400px;
+  height: 40px;
+}
+.searchgroup div img {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.searchgroup input {
+  border: none;
+}
+.search1 {
+  border-radius: 10px 0 0 10px;
+}
+.search2 {
+  border-radius: 0 10px 10px 0;
+}
+.search1 input {
+  width: 340px;
+}
+.search2 :nth-child(2) {
+  width: 150px;
+  margin-right: 20px;
+}
+.search2 input:last-child {
+  width: 150px;
+  margin-left: 20px;
+}
+/* ----------------------- */
+/* -- 인기 추천 숙소 -- */
 .wrapper{
   display: flex;
   margin-inline: auto;
@@ -10,7 +71,40 @@ main {
   flex-direction: row;
   position: relative;
   width: 1312px;
+  margin-bottom: 10%;
 }
+.wrapper .carousel{
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+.carousel img{
+  height: 340px;
+  object-fit: cover;
+  user-select: none;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.carousel img:first-child{
+  margin-left: 0px;
+}
+.carousel div {
+  display: inline-block;
+  width: calc(90% / 3);
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+.test2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1312px;
+}
+/* -- 슬라이드 버튼 -- */
 .wrapper i{
   top: 50%;
   height: 44px;
@@ -26,7 +120,6 @@ main {
   transform: translateY(-50%);
   transition: transform 0.1s linear;
   z-index: 9;
-  
 }
 .wrapper i:active{
   transform: translateY(-50%) scale(0.9);
@@ -36,100 +129,39 @@ main {
 }
 .wrapper i:first-child{
   left: -22px;
-  display: none;
 }
 .wrapper i:last-child{
   right: -22px;
 }
-.wrapper .carousel{
-  cursor: pointer;
-  overflow: hidden;
-  white-space: nowrap;
-  scroll-behavior: smooth;
-}
-.carousel.dragging{
-  cursor: grab;
-  scroll-behavior: auto;
-}
-.carousel.dragging img{
-  pointer-events: none;
-}
-.carousel img{
-  height: 340px;
-  object-fit: cover;
-  user-select: none;
-  width: 100%;
-  border-radius: 20px 20px 0 0;
-}
-.carousel img:first-child{
-  margin-left: 0px;
-}
-.test {
-  display: inline-block;
-  width: calc(90% / 3);
-  border: 1px solid lightgrey;
-  border-radius: 20px;
-  margin-right: 50px;
-  margin-left: 10px;
-}
-.test2 {
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  height: 100%;
-  width: 1312px;
-}
-.searchgroup {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.search {
-  display: flex;
-  align-items: center;
-  border: 1px solid #e2e2e2;
-  width: 400px;
-  height: 40px;
-}
-#search1 {
-  border-radius: 10px 0 0 10px;
-}
-#search2 {
-  border-radius: 0 10px 10px 0;
-}
-.search > img {
-  height: 20px;
-  width: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.search > input {
-  border: none;
-  width: 340px;
-}
+/* ----------------------- */
+/* 국내 인기 여행지 */
 .best {
   display: flex;
   margin: auto;
   width: 1312px;
+  margin-bottom: 5%;
 }
-.imggroup > p {
-  
-}
-.imggroup {
-  border: 1px solid lightgrey;
+.best div {
+  border: 1px solid rgb(235, 235, 235);
   border-radius: 20px;
   margin-right: 55px;
-  box-shadow: 1px 1px 1px 1px lightgrey;
+  box-shadow: 1px 1px 1px 1px rgb(235, 235, 235);
 }
-.imggroup > img{
+.best div img{
   display: inline-block;
   width: 400px;
   height: 340px;
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(235, 235, 235);
   border-radius: 20px 20px 0 0;
-  
+}
+.best div p {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: 700;
+}
+/* ----------------------- */
+h5 {
+  margin-left: 1%;
 }
 @media screen and (max-width: 900px) {
   .carousel img{

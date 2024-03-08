@@ -1,0 +1,32 @@
+
+.mypage-area {
+    padding: 5%;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 0px gray;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
+    min-width: 500px;
+    margin-top: 13%;
+}
+
+.mypage-area p {
+    font-size: large;
+    font-weight: bold;
+    color:dimgrey;
+}
+form > input{
+    margin: 5px;
+    width: 80%;
+}
+form > button{
+    margin-top: 50px;
+    width: 80%;
+}
+form > img{
+    margin-bottom: 10px;
+}

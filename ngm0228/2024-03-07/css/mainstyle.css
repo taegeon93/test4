@@ -15,6 +15,7 @@ main {
   align-items: center;
   background: white;
   border-radius: 30px;
+  box-shadow: inset 2px 1px 4px 4px rgb(235, 235, 235);
 }
 form {
   margin: 50px;

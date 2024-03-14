@@ -65,10 +65,14 @@ form {
 }
 
 .category-area {
+<<<<<<< HEAD
     border: 1px solid #e2e2e2;
     box-shadow: 1px 1px 1px 1px gray;
     border-radius: 1em;
     min-width: 200px;
+=======
+  min-width: 200px;
+>>>>>>> 393d4b452bb39d7b6b0a0d0e7f3818775ec609fe
     font-weight: bold;
     position: fixed;
     top: 250px;
@@ -83,8 +87,12 @@ form {
   border-radius: 1em;
 }
 .list-area {
+<<<<<<< HEAD
   width: 800px;
   height: 300px;
+=======
+  width: 600px;
+>>>>>>> 393d4b452bb39d7b6b0a0d0e7f3818775ec609fe
   display: flex;
   margin-top: 20%;
   justify-content: space-evenly;

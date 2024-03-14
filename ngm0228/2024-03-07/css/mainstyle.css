@@ -63,6 +63,13 @@ form {
   margin-left: 20px;
 }
 /* ----------------------- */
+.area2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1312px;
+}
 /* -- 인기 추천 숙소 -- */
 .wrapper{
   display: flex;
@@ -97,13 +104,6 @@ form {
   border-radius: 20px;
   margin-right: 50px;
   margin-left: 10px;
-}
-.test2 {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 1312px;
 }
 /* -- 슬라이드 버튼 -- */
 .wrapper i{

@@ -81,7 +81,7 @@ form {
   border-radius: 10px;
   box-shadow: 1px 3px 5px 0px gray;
   width: 70%;
-  height: 700px;
+  
   margin-top: 15%;
   margin-left: 20%;
   
@@ -100,7 +100,7 @@ form {
 .item{
 
   width: 90%;
-  height: 600px;
+  height: 270px;
   box-shadow: 1px 3px 5px 0px gray;
   margin: 4%;
   border-radius: 10px;

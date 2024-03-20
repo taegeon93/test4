@@ -34,71 +34,44 @@
             <button class="btn btn-outline-secondary">MyPage</button>
         </div>
         <hr>
-    </header>
+    </header>   
     <main>
-      <nav class="category-area" style="position: static;">
-          <div>
-            <input type="radio" name="category" id="motel" />
-            <label for="motel">모텔</label>
-            <br>
-            <input type="radio" name="category" id="hotel" />
-            <label for="hotel">호텔</label>
-            <br>
-            <input type="radio" name="category" id="pension" />
-            <label for="pension">펜션</label>
-            <br>
-            <input type="radio" name="category" id="guesthouse" />
-            <label for="guesthouse">게스트하우스</label>
-            <br>
+      <div class="sidebar">
+        <div class="sidebar-link">
+          <input type="radio" value="호텔" name="category"><label>호텔</label>
+        </div>
+        <div class="sidebar-link">
+           <input type="radio" value="모텔" name="category"><label>모텔</label>
+        </div>
+        <div class="sidebar-link">
+            <input type="radio" value="펜션" name="category"><label>펜션</label>
+        </div>
+        <div class="sidebar-link">
+            <input type="radio" value="게스트하우스" name="category"><label>게스트하우스</label>
+        </div>
+      </div>
+      <section id="mainSection">
+        <div class="item">
+          <img src="../taegeon/24_03_04/img/라한.webp" alt="test">
+          <div class="item_name">
+              <span class="companyName">노보텍 앰배서더 동대문호텔</span>
+              <span class="companyAddress">중구 동대문 역사문화공원</span>
+              <span class="score">별점</span>
           </div>
-      </nav>
+          <div class="item_price"><button class="btn btn-danger" >예약불가</button></div>
+        </div>
+        <div class="item">
+          <img src="../taegeon/24_03_04/img/라한.webp" alt="test">
+          <div class="item_name">
+              <span class="companyName">노보텍 앰배서더 동대문호텔</span>
+              <span class="companyAddress">중구 동대문 역사문화공원</span>
+              <span class="score">별점</span>
+          </div>
+          <div class="item_price"><button class="btn btn-primary" >예약</button></div>
+        </div>
+
+      </section>
       
-        <section class="list-all" style="min-width: calc(100% - 200px);">
-          <div class="list-area">
-            <img src="./img/라한.webp" alt="img" width="200px" height="200px">
-            <div class="list-part">
-                <span class="listName">라한셀렉트 경주</span>
-                <span class="listAddress">경주시 경주보문단지내</span>
-                <span class="price">가격 : 340,000원/1박</span>
-            </div>
-          </div>
-          <hr>
-          <div class="list-area">
-            <img src="./img/라한.webp" alt="img" width="200px" height="200px">
-            <div class="list-part">
-                <span class="listName">라한셀렉트 경주</span>
-                <span class="listAddress">경주시 경주보문단지내</span>
-                <span class="price">가격 : 340,000원/1박</span>
-            </div>
-          </div>
-          <hr>
-          <div class="list-area">
-            <img src="./img/라한.webp" alt="img" width="200px" height="200px">
-            <div class="list-part">
-                <span class="listName">라한셀렉트 경주</span>
-                <span class="listAddress">경주시 경주보문단지내</span>
-                <span class="price">가격 : 340,000원/1박</span>
-            </div>
-          </div>
-          <hr>
-          <div class="list-area">
-            <img src="./img/라한.webp" alt="img" width="200px" height="200px">
-            <div class="list-part">
-                <span class="listName">라한셀렉트 경주</span>
-                <span class="listAddress">경주시 경주보문단지내</span>
-                <span class="price">가격 : 340,000원/1박</span>
-            </div>
-          </div>
-          <hr>
-          <div class="list-area">
-            <img src="./img/라한.webp" alt="img" width="200px" height="200px">
-            <div class="list-part">
-                <span class="listName">라한셀렉트 경주</span>
-                <span class="listAddress">경주시 경주보문단지내</span>
-                <span class="price">가격 : 340,000원/1박</span>
-            </div>
-          </div>
-        </section>
     </main>
 </body>
 </html>

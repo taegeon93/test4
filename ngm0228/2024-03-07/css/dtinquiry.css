@@ -49,6 +49,7 @@ main {
   box-shadow: 1px 1px 5px 2px #E2E2E2;
   border-radius: 20px;
   height: 70%;
+  padding: 7%;
 }
 .carousel p{
   object-fit: cover;
@@ -59,10 +60,8 @@ main {
 .carousel p:first-child{
   margin-left: 0px;
 }
-.carousel div {
+.carousel > div {
   display: inline-block;
-  border: 1px solid lightgrey;
-  border-radius: 20px;
   width: 100%;
   height: 100%;
 }
